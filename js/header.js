@@ -2,7 +2,7 @@ function Header() {
 return (
     <header>
     <nav role="navigation" className="navbar">
-    <a href="../index.html" title="Voltar para a página inicial">Home</a>
+    <a href="index.html" title="Voltar para a página inicial">Home</a>
         <div className="dropdown">
             <a title="Ir para a página Games" className="dropbtn">Games</a> 
             <div className="dropdown-content">
