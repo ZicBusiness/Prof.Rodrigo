@@ -7,7 +7,7 @@ return (
             <a title="Ir para a página Games" className="dropbtn">Games</a> 
             <div className="dropdown-content">
                 <a  title="Games Menu">Games:</a>
-                <a href="../Mm_game/index.html" title="Ir para o jogo 1">Musical Memory Game</a>
+                <a href="Mm_game/index.html" title="Ir para o jogo 1">Musical Memory Game</a>
             </div> 
         </div>
 
@@ -19,7 +19,7 @@ return (
             <a href="#" title="Ir para o vídeo 3">Vídeo 3</a>
         </div>
     </div>
-    <a className="float-right" href="/pages/contact.html">Contato</a>
+    <a className="float-right" href="pages/contact.html">Contato</a>
   </nav>
 </header>
 );
