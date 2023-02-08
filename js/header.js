@@ -7,7 +7,7 @@ return (
             <a title="Ir para a página Games" className="dropbtn">Games</a> 
             <div className="dropdown-content">
                 <a  title="Games Menu">Games:</a>
-                <a href="Mm_game/index.html" title="Ir para o jogo 1">Musical Memory Game</a>
+                <a href="https://ZicBusiness.github.io/Prof.Rodrigo/Mm_game/index.html" title="Ir para o jogo 1">Musical Memory Game</a>
             </div> 
         </div>
 
