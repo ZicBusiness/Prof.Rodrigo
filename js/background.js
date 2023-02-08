@@ -5,7 +5,7 @@ return (
         <div className="bgcircle"></div>
         <div className="bgcircle2"></div>
         <div className="bgcircle3"></div>
-		      <div className="minirobg"><img src="img/tiwi1.png" alt="Imagem do golfinho" loading="lazy"></img></div>
+		      <div className="minirobg"><img src="https://raw.githubusercontent.com/ZicBusiness/Prof.Rodrigo/main/img/tiwi1.png" alt="Imagem do golfinho" loading="lazy"></img></div>
 	       <div className="front-name">
 	            <h1>Rodrigo</h1>
 	       </div>
