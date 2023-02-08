@@ -19,7 +19,7 @@ return (
             <a href="#" title="Ir para o vídeo 3">Vídeo 3</a>
         </div>
     </div>
-    <a className="float-right" href="https://ZicBusiness.github.io/Prof.Rodrigo/main/pages/contact.html">Contato</a>
+    <a className="float-right" href="https://ZicBusiness.github.io/Prof.Rodrigo/pages/contact.html">Contato</a>
   </nav>
 </header>
 );
