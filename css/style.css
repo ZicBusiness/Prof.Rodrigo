@@ -197,7 +197,7 @@ iframe {
 .videos p {
     margin: 0;
     color:white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: -1px 0 deepskyblue , 0 1px deepskyblue, 1px 0 deepskyblue , 0 -1px deepskyblue;
     font-size: 3vw;
       
 }
