@@ -12,12 +12,12 @@ return (
         </div>
 
     
-    <div className="dropdown">*/
-    // <a href="#" title="Ir para a página Vídeos" className="dropbtn">Atividades</a>
+    <div className="dropdown">
+    <a href="#" title="Ir para a página Vídeos" className="dropbtn">Atividades</a>
         <div className="dropdown-content">
-            <a href="#" title="Ir para o vídeo 1">Vídeo 1</a>
-            <a href="#" title="Ir para o vídeo 2">Vídeo 2</a>
-            <a href="#" title="Ir para o vídeo 3">Vídeo 3</a>
+            <a title="Atividades">Atividades:</a>
+            <a href="#" title="Ir para o vídeo 2">Atividade 1</a>
+            <a href="#" title="Ir para o vídeo 3">Atividade 2</a>
         </div>
     </div>
     
