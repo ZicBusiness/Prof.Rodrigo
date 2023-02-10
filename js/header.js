@@ -13,7 +13,7 @@ return (
 
     /*
     <div className="dropdown">
-    <a href="#" title="Ir para a página Vídeos" className="dropbtn">Vídeos</a>
+    <a href="#" title="Ir para a página Vídeos" className="dropbtn">Atividades</a>
         <div className="dropdown-content">
             <a href="#" title="Ir para o vídeo 1">Vídeo 1</a>
             <a href="#" title="Ir para o vídeo 2">Vídeo 2</a>
