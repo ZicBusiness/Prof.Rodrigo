@@ -11,16 +11,16 @@ return (
             </div> 
         </div>
 
-    /*
-    <div className="dropdown">
-    <a href="#" title="Ir para a página Vídeos" className="dropbtn">Atividades</a>
-        <div className="dropdown-content">
-            <a href="#" title="Ir para o vídeo 1">Vídeo 1</a>
-            <a href="#" title="Ir para o vídeo 2">Vídeo 2</a>
-            <a href="#" title="Ir para o vídeo 3">Vídeo 3</a>
-        </div>
-    </div>
-    */
+    
+    /*<div className="dropdown">*/
+    /*<a href="#" title="Ir para a página Vídeos" className="dropbtn">Atividades</a>*/
+        /*<div className="dropdown-content">*/
+            /*<a href="#" title="Ir para o vídeo 1">Vídeo 1</a>*/
+            /*<a href="#" title="Ir para o vídeo 2">Vídeo 2</a>*/
+            /*<a href="#" title="Ir para o vídeo 3">Vídeo 3</a>*/
+        /*</div>*/
+    /*</div>*/
+    
     <a className="float-right" href="https://ZicBusiness.github.io/Prof.Rodrigo/pages/contact.html">Contato</a>
   </nav>
 </header>
