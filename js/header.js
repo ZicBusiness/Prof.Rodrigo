@@ -21,7 +21,7 @@ return (
         </div>
     </div>
     
-    <a className="float-right" href="https://ZicBusiness.github.io/Prof.Rodrigo/pages/contact.html">Contato</a>
+    <a className="float-right" href="https://ZicBusiness.github.io/Prof.Rodrigo/pages/contact.html">Ouvidoria</a>
   </nav>
 </header>
 );
