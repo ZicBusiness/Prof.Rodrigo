@@ -51,7 +51,7 @@ margin-left: 10px;
 
 .navbar a:hover {
   background-color: white;
-  color: black;
+  color: white;
   height: 2.11vw; /* Altura do hover quando hover deve ser igual o height do navbar*/
   overflow: hidden;
   text-align: left;
