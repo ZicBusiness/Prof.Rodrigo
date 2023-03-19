@@ -20,7 +20,7 @@ video {
   z-index: 2;
 	position: relative;
 	width: 15%;
-  margin-left: 3.9%;; /* ajustado */
+  margin-left: 3.9%; /* ajustado */
   margin-top: -20px;
   padding:0;
   align-self: center;
@@ -217,16 +217,16 @@ iframe {
   }
   .hero .ro img {
       width: 30%;
-    margin-left: 5%;; /* ajustado */
+    margin-left: 5%; /* ajustado */
     margin-top: -10px;
   }
   .videos p {
        font-size: 23px; 
             
-}
-.videos{
-  margin-top:320px;   
-    }
+  }
+  .videos{
+       margin-top:320px;   
+  }
 
   
 }
