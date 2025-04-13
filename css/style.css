@@ -174,7 +174,7 @@ margin-left: 10px;
 }
 
 
-iframe {
+iframe.iframe-video {
                 padding:0;
                 display: inline-block;
                 border: 5px solid white;
@@ -188,6 +188,19 @@ iframe {
                 overflow:hidden;
                 position: relative;
                 opacity: 1;
+
+               }
+
+iframe.iframe-facebook {
+                padding:0;
+                display: inline-block;
+                border: 5px solid white !important;
+                border-radius: 20px;
+                margin-bottom: 20px;
+                overflow: hidden;
+                border-radius: 20px;
+                display: block;
+
 
                }
 
