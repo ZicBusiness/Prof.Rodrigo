@@ -1,44 +1,141 @@
-
-.navbar {
-  max-width: 100%;
-  width: 100%;
+/* Estrutura principal */
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
+/* Background fixo */
+#bg_js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
 
-/* Estilos comuns */
-   .container {
-    width: 90%;
-    margin: 0 auto;
-  } 
-  
-  /* Estilos específicos para desktop */
-  @media (min-width: 768px) {
-    .container {
-      width: 60%;
-    }
+/* Container do formulário - versão melhorada */
+.form-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+  position: relative;
+  z-index: 1;
+  padding: 0;
+}
+
+/* Formulário com transparência sofisticada */
+.google-form {
+  width: 100%;
+  height: 800px;
+  min-height: 500px;
+  border: none;
+  display: block;
+
+  /* Transparência ajustável */
+  background-color: rgba(255, 255, 255, 0.82);
+
+  /* Efeito de vidro premium */
+  backdrop-filter: blur(8px) saturate(160%);
+  -webkit-backdrop-filter: blur(8px) saturate(160%);
+
+  /* Estilo visual */
+  border-radius: 16px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+
+  /* Transição suave */
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
+}
+
+/* Efeito hover sutil */
+.google-form:hover {
+  background-color: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Camada de vidro otimizada */
+.form-container::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+/* Desktop - ajustes refinados */
+@media (min-width: 768px) {
+  .form-container {
+    width: 75%;
+    margin: 80px auto;
   }
 
-iframe {
-width: 100%;
-  max-width: 100%;
-  height: 780px;
-  border: none;
-  margin:50px 0 0 0;
-  
+  .google-form {
+    height: 650px;
+    padding: 25px;
+  }
+
+  .form-container::before {
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -15px;
+  }
 }
 
- 
+/* Mobile - otimização completa */
+@media (max-width: 767px) {
+  .form-container {
+    width: 94%;
+    margin: 25px auto;
+  }
+
+  .google-form {
+    height: 720px;
+    min-height: 620px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.85);
+  }
+
+  .form-container::before {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+}
+
+/* Footer premium */
 .footer {
+  z-index: 1000;
   position: fixed;
-  left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgba(128, 128, 128, 0.7);
+  background: rgba(128, 128, 128, 0.85);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   text-align: center;
   color: white;
-  padding: 10px;
+  padding: 12px;
+  font-family: 'MuseoModerno', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
 }
 
-	
-
-
+/* Melhorias de acessibilidade */
+@media (prefers-reduced-motion) {
+  .google-form {
+    transition: none;
+  }
+}
