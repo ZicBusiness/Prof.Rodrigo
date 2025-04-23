@@ -17,7 +17,7 @@ video {
   top: 0;
   width: 100%;
   height: 38px;
-  z-index: 1000;
+  z-index: 900;
  }
 
 .navbar a {
@@ -280,6 +280,38 @@ iframe.iframe-facebook {
     font-size: 1.8vw;
 }
 
+.video-container {
+  position: fixed;
+  top: 100px; /* Ajuste conforme necessário para ficar abaixo da navbar */
+  right: 20px;
+  width: 450px; /* Ajuste conforme o tamanho desejado */
+  height: 250px; /* Ajuste conforme o tamanho desejado */
+  border-radius: 20px;
+  overflow: hidden;
+  z-index: 1000;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  animation: slideUp 1.5s ease-out forwards;
+  transform: translateY(100vh); /* Começa abaixo da tela */
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+@keyframes slideUp {
+  0% {
+      transform: translateY(100vh); /* Começa totalmente abaixo da tela */
+  }
+  100% {
+      transform: translateY(0); /* Termina na posição final */
+  }
+}
+
+
+
 .footer {
   z-index: 1000;
   position: fixed;
@@ -326,8 +358,27 @@ iframe.iframe-facebook {
     position:fixed;
 
   }
-
 }
+
+/* Responsividade para o container de vídeo */
+@media (max-width: 768px) {
+  .video-container {
+      width: 320px;
+      height: 180px;
+      right: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .video-container {
+      width: 280px;
+      height: 160px;
+      right: 5px;
+  }
+}
+
+
+
 
 
 
