@@ -7,7 +7,7 @@ body {
   flex-direction: column;
 }
 video {
-    z-index: 0;
+    z-index: 50;
 }
 
 /* ESTILIZAÇÃO DA NAVBAR */
@@ -17,7 +17,7 @@ video {
   top: 0;
   width: 100%;
   height: 38px;
-  z-index: 900;
+  z-index: 100;
  }
 
 .navbar a {
@@ -76,7 +76,7 @@ video {
 /* Ajuste específico para a imagem hero */
 .hero {
   position: relative;
-  margin-top: -10px; /* Espaço para a navbar */
+  top: 0px; /* Espaço para a navbar */
   margin-left: 10px;
   color: white;
   font-size: 24px;
@@ -161,10 +161,55 @@ video {
 .videos {
   position: relative;
   margin: 0 0 0 10px; /* top right bottom left */
-  padding-top: 1px; /* Espaço extra se necessário */
-  z-index: 1;
+  padding-top: 0px; /* Espaço extra se necessário */
   color: black;
 }
+
+
+.video-container {
+  border: 9px solid white;
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  width: 700px;
+  height: 400px;
+  border-radius: 30px;
+  overflow: hidden;
+  background: rgb(0, 0, 0);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 1);
+  animation: slideUp 4.5s ease-in-out forwards;
+  transform: translateY(100vh);
+  padding: 0; /* Adicionado */
+  box-sizing: border-box; /* Adicionado */
+}
+
+.video-container iframe {
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+  @keyframes slideUp {
+    0% {
+        transform: translateY(100vh); /* Começa totalmente abaixo da tela */
+    }
+    20% {
+        transform: translateY(80vh); /* Adicionado ponto intermediário para suavizar */
+    }
+    60% {
+        transform: translateY(40vh); /* Adicionado outro ponto intermediário */
+    }
+    100% {
+        transform: translateY(0); /* Termina na posição final */
+    }
+  }
 
 
 
@@ -201,7 +246,7 @@ video {
 	color: white;
     align-items: center;
     justify-content: center;
-	position: absolute;
+	position: fixed;
 
 }
 
@@ -280,35 +325,6 @@ iframe.iframe-facebook {
     font-size: 1.8vw;
 }
 
-.video-container {
-  position: fixed;
-  top: 100px; /* Ajuste conforme necessário para ficar abaixo da navbar */
-  right: 20px;
-  width: 450px; /* Ajuste conforme o tamanho desejado */
-  height: 250px; /* Ajuste conforme o tamanho desejado */
-  border-radius: 20px;
-  overflow: hidden;
-  z-index: 1000;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  animation: slideUp 1.5s ease-out forwards;
-  transform: translateY(100vh); /* Começa abaixo da tela */
-}
-
-.video-container video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-}
-
-@keyframes slideUp {
-  0% {
-      transform: translateY(100vh); /* Começa totalmente abaixo da tela */
-  }
-  100% {
-      transform: translateY(0); /* Termina na posição final */
-  }
-}
 
 
 
