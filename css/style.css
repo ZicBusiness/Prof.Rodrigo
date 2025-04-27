@@ -364,11 +364,28 @@ iframe.iframe-facebook {
 }
 
 @media (max-width: 768px) {
-  .video-container {
-      width: 320px;
-      height: 180px;
-      right: 10px;
+  .hero {
+    top: 20px; 
   }
+  iframe.iframe-facebook {    
+    margin-top: 20px;
+   }
+  
+  .video-container {
+    position: relative;
+    top: 30px;
+    width: 555px;
+    height: 318px;
+    left: 15px;
+  }
+
+  .video-container iframe {
+    width: 103%; /* Ligeiramente menor que o container */
+    height: 103%; /* Ligeiramente menor que o container */
+    border-radius: 20px;
+   
+  }
+ 
 }
 
 @media (max-width: 480px) {
