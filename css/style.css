@@ -388,7 +388,7 @@ iframe.iframe-facebook {
  
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .hero {
     top: 20px; 
   }
@@ -403,15 +403,14 @@ iframe.iframe-facebook {
     height: 318px;
     left: 15px;
   }
-
   .video-container iframe {
-    width: 103%; /* Ligeiramente menor que o container */
-    height: 103%; /* Ligeiramente menor que o container */
+    width: 103%; 
+    height: 103%; 
     border-radius: 20px;
    
   }
  
-}
+} */
 
 
 
