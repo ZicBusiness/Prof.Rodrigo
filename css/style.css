@@ -363,7 +363,7 @@ iframe.iframe-facebook {
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 600px) {
   .hero {
     top: 20px; 
   }
