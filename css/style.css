@@ -363,7 +363,7 @@ iframe.iframe-facebook {
   }
 }
 
-@media (max-width: 583px) {
+@media (max-width: 670px) {
   .hero {
     top: 20px; 
   }
@@ -374,9 +374,9 @@ iframe.iframe-facebook {
   .video-container {
     position: relative;
     top: 30px;
-    width: 555px;
-    height: 318px;
-    left: 15px;
+    width: 565px;
+    height: 325px;
+    left: 19px;
   }
 
   .video-container iframe {
