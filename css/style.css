@@ -313,6 +313,7 @@ iframe.iframe-facebook {
                 display: inline-block;
                 border: 5px solid white !important;
                 border-radius: 20px;
+                margin-top: 0px;
                 margin-bottom: 20px;
                 overflow: hidden;
                 border-radius: 20px;
@@ -371,10 +372,17 @@ iframe.iframe-facebook {
 }
 
 @media (max-width: 480px) {
+  .hero {
+    top: 500px; 
+  }
+  iframe.iframe-facebook {    
+    margin-top: 500px;
+   }
+  
   .video-container {
       width: 280px;
       height: 160px;
-      right: 5px;
+      right: 1140px;
   }
 }
 
