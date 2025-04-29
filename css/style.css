@@ -385,10 +385,13 @@ iframe.iframe-facebook {
 }
 
 /* Settings para tablets Portrait*/
-@media (max-width: 1280px) {
+@media (max-width: 960px) {
   .hero {
     top: 20px; 
   }
+  .hero h1 {
+    font-size: clamp(1.0rem, 5vw, 4.5rem);
+    }
   iframe.iframe-facebook {    
     margin-top: 20px;
    }
