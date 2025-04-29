@@ -390,7 +390,7 @@ iframe.iframe-facebook {
     top: 20px; 
   }
   .hero h1 {
-    font-size: clamp(1.0rem, 5vw, 4.5rem);
+    font-size: clamp(1.0rem, 3vw, 4.5rem);
     }
   iframe.iframe-facebook {    
     margin-top: 20px;
