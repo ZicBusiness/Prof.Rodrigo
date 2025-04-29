@@ -363,6 +363,29 @@ iframe.iframe-facebook {
   }
 }
 
+
+/* Settings para LapTops */
+@media (max-width: 1280px) {
+  .hero {
+    top: 20px; 
+  }
+  iframe.iframe-facebook {    
+    margin-top: 20px;
+   }
+  
+   .video-container {
+    position: fixed;
+    top: 50px;
+    width: 500px;
+    height: 285px;
+    left: 770px;
+  }
+
+   
+}
+
+
+/* Settings para tablets Landscape*/
 @media (max-width: 700px) {
   .hero {
     top: 20px; 
@@ -388,6 +411,8 @@ iframe.iframe-facebook {
  
 }
 
+
+/* Settings para celulares */
 @media (max-width: 385px) {
   .hero {
     top: 20px; 
