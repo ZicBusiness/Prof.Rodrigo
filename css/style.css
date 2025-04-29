@@ -387,13 +387,13 @@ iframe.iframe-facebook {
    
 }
 
-/* Settings para tablets Portrait*/
+/* Settings para tablets Landscape*/
 @media (max-width: 960px) {
   .hero {
     top: 20px; 
   }
   .hero h1 {
-    font-size: clamp(1.0rem, 4vw, 3rem);
+    font-size: clamp(1.0rem, 3vw, 3rem);
     }
   iframe.iframe-facebook {    
     margin-top: 20px;
@@ -401,18 +401,18 @@ iframe.iframe-facebook {
   
    .video-container {
     position: fixed;
-    top: 50px;
+    top: 45px;
     width: 313px;
     height: 179px;
-    left: 635px;
+    left: 640px;
   }
 
    
 }
 
 
-/* Settings para tablets Landscape*/
-@media (max-width: 700px) {
+/* Settings para tablets Portrait*/
+@media (max-width: 600px) {
   .hero {
     top: 20px; 
   }
