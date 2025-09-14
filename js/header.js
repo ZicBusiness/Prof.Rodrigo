@@ -15,8 +15,8 @@ return (
         <a href="#" title="Ir para a página Vídeos" className="dropbtn">Atividades</a>
         <div className="dropdown-content"> 
           <a title="Atividades">Atividades:</a>
-          <a href="#" title="Ir para o vídeo 2">"Em Breve"</a>
-          <a href="#" title="Ir para o vídeo 3">"Em Breve"</a>
+          <a href="https://zicbusiness.github.io/Soundproperties/" title="Ir para Quiz1" target="_blank">"Propriedades do Som"</a>
+          {/*<a href="#" title="Ir para o vídeo 3">"Em Breve"</a>*/}
         </div>
       </div>
   
